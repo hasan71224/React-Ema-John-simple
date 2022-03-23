@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Create React App  [![Netlify Status](https://api.netlify.com/api/v1/badges/b58d5ae4-d14b-4acd-8475-5ea4405eb05e/deploy-status)](https://app.netlify.com/sites/ema-johan-react/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
