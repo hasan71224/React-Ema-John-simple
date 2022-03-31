@@ -10,6 +10,7 @@ function App() {
   return (
     <div>
       <Header></Header>
+      
       <Routes>
         <Route path='/' element={<Shop></Shop>}></Route>
         <Route path='/shop' element={<Shop></Shop>}></Route>
@@ -19,6 +20,6 @@ function App() {
       </Routes>
     </div>
   );
-}
+} 
 
 export default App;
