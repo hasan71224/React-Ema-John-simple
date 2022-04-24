@@ -12,6 +12,18 @@
     gap: 45px;
     margin: 100px 50px;
 }
+.pagination button{
+    margin-right: 10px;
+    font-size: medium;
+    color: white;
+    background-color: orange;
+    border: 2px solid #FF99004D;
+}
+.pagination .selected{
+    border: 2px solid #FF99004D;
+    color: orange;
+    background-color: white;
+}
 
 @media screen and (max-width:1250px){
     .product-container{

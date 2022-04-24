@@ -9,14 +9,14 @@ import './Orders.css'
 
 const Orders = () => {
     const [products, setProducts]=useProducts()
-    const [cart, setCart]=useCard(products);
+    const [cart, setCart]=useCard();
     
     //remove from cart use button
     const handleRemoveProduct = product =>{
-        const rest = cart.filter(pd => pd.id !== product.id);
+        const rest = cart.filter(pd => pd._id !== product._id);
         setCart(rest);
         //remove from local Storage
-        removeFromDb(product.id);
+        removeFromDb(product._id);
     }
     
     return (
@@ -28,7 +28,6 @@ const Orders = () => {
                         product={product}
                         handleRemoveProduct={handleRemoveProduct}
                     >
-
                     </ReviewItem>)
                 }
             </div>
